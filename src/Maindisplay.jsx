@@ -1,6 +1,9 @@
-import React from 'react'
+import React, {  } from 'react'
 
 const Maindisplay = () => {
+
+
+
   return (
     <div className='maindisplaystyles'>
         <h1>Main Display</h1>
