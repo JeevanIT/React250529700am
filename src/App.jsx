@@ -6,21 +6,14 @@ import Sidemenu from './Sidemenu'
 import Maindisplay from './Maindisplay'
 import Footer from './Footer'
 import CreateComponent from './CreateComponent'
+import Parent from './StatusAndProps/Parent'
+import MultiComponent from './StatusAndProps/MultiComponent'
 
 const App = () => {
   return (
     <>
-     <Header />
-     <Navabar />
-     <Banner />
-     
-      <div className='maincontainer'>
-        <Sidemenu />
-        <Maindisplay />
-      </div>
+    <MultiComponent />
 
-     <Footer />
-     <CreateComponent />
     </>
 
   )
