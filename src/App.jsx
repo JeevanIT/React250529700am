@@ -11,11 +11,16 @@ import MultiComponent from './StatusAndProps/MultiComponent'
 import RenderComponent from './ConditionalRender/RenderComponent'
 import ConditionalRender02 from './ConditionalRender/ConditionalRender02'
 import StatesAndProps from './ConditionalRender/StatesAndProps'
+import StateValueUpdate from './UseState/StateValueUpdate'
+import UpdateCustomState from './UseState/UpdateCustomState'
+import UpdateviaInput from './UseState/UpdateviaInput'
+import FetchApi from './UseEffect/FetchApi'
 
 const App = () => {
   return (
     <>
-<StatesAndProps />
+      
+    <FetchApi />
 
     </>
 
