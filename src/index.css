@@ -43,3 +43,8 @@ margin: 20px 5%;
   height: 50px;
   background-color: #063479;
 }
+.paragraphstyles {
+  font-size: 20px;
+  color: #e70606 !important;
+  margin: 10px;
+}
