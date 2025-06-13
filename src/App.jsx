@@ -17,12 +17,17 @@ import UpdateviaInput from './UseState/UpdateviaInput'
 import FetchApi from './UseEffect/FetchApi'
 import AxiosApi from './UseEffect/AxiosApi'
 import UserRefHook from './UseRef/UserRefHook'
+import UseCallBack from './UseCallBack/UseCallBack'
+import UseMemoHook from './UseMemoHook/UseMemoHook'
+import BootstrapComponent from './bootstrap/BootstrapComponent'
 
 const App = () => {
+
+
   return (
     <>
       
-    <UserRefHook />
+      <BootstrapComponent />
 
     </>
 
