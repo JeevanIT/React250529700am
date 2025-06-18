@@ -1,12 +1,15 @@
 import React from 'react'
 import Bootstrapfrom from './Bootstrapfrom'
 import Bootsrapbanner from './Bootsrapbanner'
+import Navigationbar from './Navigationbar'
+import Mediaquery from './Mediaquery'
 
 const BootstrapComponent = () => {
   return (
     <>
     <div>
-        <h3>BootstrapComponent</h3>
+      <Mediaquery />
+        <Navigationbar />
         <Bootsrapbanner />
         <p>
             This component demonstrates the use of Bootstrap for styling and layout in a React application. 

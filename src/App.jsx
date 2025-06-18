@@ -20,15 +20,18 @@ import UserRefHook from './UseRef/UserRefHook'
 import UseCallBack from './UseCallBack/UseCallBack'
 import UseMemoHook from './UseMemoHook/UseMemoHook'
 import BootstrapComponent from './bootstrap/BootstrapComponent'
+import MaterialComponent from './MaterialUi/MaterialComponents'
+import Navbar from './Navigations/Navbar'
+import Container from './Navigations/Container'
 
 const App = () => {
 
 
   return (
     <>
-      
-      <BootstrapComponent />
 
+      <Navbar />
+      <Container />
     </>
 
   )

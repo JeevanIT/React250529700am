@@ -11,21 +11,21 @@ const Bootsrapbanner = () => {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="..." class="d-block w-100" alt="..." />
+      <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg" class="d-block w-100" alt="..." />
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="..." class="d-block w-100" alt="..." />
+      <img src="https://cdn.bhdw.net/im/snowy-mountain-and-forest-reflected-in-water-wallpaper-116467_w635.webp" class="d-block w-100" alt="..." />
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="..." />
+      <img src="https://c4.wallpaperflare.com/wallpaper/78/628/890/wheat-farm-wheat-wallpaper-preview.jpg" class="d-block w-100" alt="..." />
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
