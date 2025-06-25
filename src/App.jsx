@@ -23,15 +23,24 @@ import BootstrapComponent from './bootstrap/BootstrapComponent'
 import MaterialComponent from './MaterialUi/MaterialComponents'
 import Navbar from './Navigations/Navbar'
 import Container from './Navigations/Container'
+import CreateContext from './Context/CreateContext'
+import PrintStoreValue from './Redux/PrintStoreValue'
+import Hoc from './HOC/Hoc'
+import NetFlix from './NetFlixApp/NetFlix'
 
 const App = () => {
 
 
   return (
     <>
+    <Hoc />
+    <NetFlix />
+   {/*  <PrintStoreValue /> */}
 
-      <Navbar />
+     {/*  <Navbar />
       <Container />
+      <h1 style={{ textAlign: 'center', color: 'blue' }}>Welcome to Context...</h1>
+      <CreateContext /> */}
     </>
 
   )
