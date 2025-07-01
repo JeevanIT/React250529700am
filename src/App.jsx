@@ -27,14 +27,16 @@ import CreateContext from './Context/CreateContext'
 import PrintStoreValue from './Redux/PrintStoreValue'
 import Hoc from './HOC/Hoc'
 import NetFlix from './NetFlixApp/NetFlix'
+import FormValidations from './Formvalidations/FormValidations'
 
 const App = () => {
 
 
   return (
     <>
-    <Hoc />
-    <NetFlix />
+    <FormValidations />
+    {/* <Hoc />
+    <NetFlix /> */}
    {/*  <PrintStoreValue /> */}
 
      {/*  <Navbar />
