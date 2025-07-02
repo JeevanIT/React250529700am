@@ -28,13 +28,15 @@ import PrintStoreValue from './Redux/PrintStoreValue'
 import Hoc from './HOC/Hoc'
 import NetFlix from './NetFlixApp/NetFlix'
 import FormValidations from './Formvalidations/FormValidations'
+import Counter from './Counter'
 
 const App = () => {
 
 
   return (
     <>
-    <FormValidations />
+    <Counter />
+    {/* <FormValidations /> */}
     {/* <Hoc />
     <NetFlix /> */}
    {/*  <PrintStoreValue /> */}

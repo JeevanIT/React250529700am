@@ -6,7 +6,9 @@
 body {
 width: 100%;
 margin: 20px 5%;
-
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .headerstyle{
   background-color: #82c0ff;
