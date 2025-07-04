@@ -29,13 +29,15 @@ import Hoc from './HOC/Hoc'
 import NetFlix from './NetFlixApp/NetFlix'
 import FormValidations from './Formvalidations/FormValidations'
 import Counter from './Counter'
+import ShowText from './ShowText'
 
 const App = () => {
 
 
   return (
     <>
-    <Counter />
+    <ShowText />
+    {/* <Counter /> */}
     {/* <FormValidations /> */}
     {/* <Hoc />
     <NetFlix /> */}
